@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+#principal{
+    width: 490px;
+    height: 200px;
+    border: solid black 2px;
+    margin: 0 auto 0 auto;
+    padding-top: 50px;
+    border-radius: 5px;
+}
+
+h1{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 10px;
+    font-size: 25pt;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h2{
+    float: left;
+    margin-left: 95px;
+    font-size: 20pt;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+input{
+    border: solid black 1px;
+    float: left;
+    width: 50px;
+    height: 30px;
+    margin-left: 3px;
+    text-align: center;
+    font-size: 15pt;
+    border-radius: 3px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#botao{
+    width: 70px;
+    margin-left: 200px;
+    margin-top: 5px;
+    font-size: 10pt;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#resultado{
+    width: 468px;
+    height: 73px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 20pt;
+    padding-top: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+}

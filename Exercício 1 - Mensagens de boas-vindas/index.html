@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mensagem de boas-vindas</title>
+</head>
+<body>
+    <script>
+        var nome = window.prompt('Olá boas-vindas! \nQual o seu nome?')
+        if(nome == ''){
+            window.alert('[ERRO!] Digite um nome e tente novamente!')
+        }else if(nome.length > 0 && nome.length <= 4){
+            window.alert(`Boas-vindas ${nome[0].toUpperCase() + nome.substring(1)}! É com alegria que te recebemos com muito carinho no dia de hoje!`)
+        }else if(nome.length >= 10 && nome.length < 12){
+            window.alert(`${nome[0].toUpperCase() + nome.substring(1)}, deseje boas-vindas ao novo ciclo que se inicia hoje e esteja disposto(a) a enfrentar qualquer desafio com muita fé em Deus.`)
+        }else{
+            window.alert(`${nome[0].toUpperCase() + nome.substring(1)}, seja bem-vindo ao clube das pessoas que pensam demais, amam demais e vivem a vida intensamente!`)
+        }
+    </script>
+</body>
+</html>
