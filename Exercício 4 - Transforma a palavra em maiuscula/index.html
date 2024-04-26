@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mostrar palavra em caixa alta</title>
+</head>
+<body>
+    <script>
+        do{
+            var palavra = window.prompt('Digite uma palavra: ')
+            window.alert(`A palavra ${palavra} fica ${palavra.toLocaleUpperCase()} em maísuculo.`)
+            var opcao = window.confirm('Deseja rodar novamente?')
+        } while(opcao == true)
+            window.alert('Para utilizar novamente, atualize a página ou aperte F5 no seu teclado.')
+    </script>
+</body>
+</html>

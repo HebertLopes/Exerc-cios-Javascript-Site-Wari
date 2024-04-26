@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de número primo</title>
+</head>
+<body>
+    <script>
+    do{
+        var numero = window.prompt('Digite um número: ')
+            if(numero == false){
+                window.alert('[ERRO!] Valor não digitado! Atualize a página ou aperte F5 e tente novamente!')
+            }else if(numero >= 1 && numero % 1 == 0 && numero % numero == 0 && numero % 2 == 1 || numero == 2){
+                window.alert(`O número ${numero} é primo!`)
+            }else{
+                window.alert(`O número ${numero} não é primo!`)
+            }
+        var opcao = window.confirm('Deseja continuar?')
+    }while(opcao == true)
+                window.alert('Para utilizar novamente, atualize a página ou aperte F5.')
+    </script>
+</body>
+</html>

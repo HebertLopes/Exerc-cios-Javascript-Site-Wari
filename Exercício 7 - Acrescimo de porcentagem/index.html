@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acrescimo de porcentagem</title>
+</head>
+<body>
+    <script>
+    do{
+        var numero = Number(window.prompt('Digite o valor: '))
+        var porcentagem = Number(window.prompt('Digite a porcentagem a ser acrescentada ao valor: '))
+        var acrescimo = (porcentagem * numero) / 100
+        var novo_valor = numero + acrescimo
+            window.alert(`O valor ${numero}, com o acrescimo de ${porcentagem}%, ficará ${novo_valor.toFixed(2).replace('.',',')}.`)
+        var opcao = window.confirm('Deseja continuar?')
+    }while(opcao == true)
+            window.alert('Para utlizar novamente, atualize sua página ou aperte F5.')
+    </script>
+</body>
+</html>
